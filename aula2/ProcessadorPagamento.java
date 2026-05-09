@@ -2,9 +2,9 @@ package org.example;
 
 public class ProcessadorPagamento {
 
-    private Cartao cartao;
+    private CartaoCredito cartao;
 
-    public ProcessadorPagamento(Cartao cartao) {
+    public ProcessadorPagamento(CartaoCredito cartao) {
         this.cartao = cartao;
     }
 
