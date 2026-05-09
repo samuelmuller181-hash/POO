@@ -1,16 +1,16 @@
 package org.example;
 
-public class Cartao {
+public class CartaoCredito {
 
     private String numeroCartao;
     private String titular;
     private double limiteDisponivel;
     private String cvv;
 
-    public Cartao(String numeroCartao, String titular, double limiteInicial, String cvv) {
+    public CartaoCredito(String numeroCartao, String titular, double limiteDisponivel, String cvv) {
         this.numeroCartao = numeroCartao;
         this.titular = titular;
-        this.limiteDisponivel = limiteInicial;
+        this.limiteDisponivel = limiteDisponivel;
         this.cvv = cvv;
     }
 
