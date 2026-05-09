@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cartao cartao = new Cartao(
+        CartaoCredito cartao = new CartaoCredito(
                 "1234-5678-9012-3456",
                 "Samuel",
                 5000.0,
